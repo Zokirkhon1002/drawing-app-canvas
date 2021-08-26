@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #a5a5a5;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+canvas {
+    border: 3px solid steelblue;
+    background-color: #ffffff;
+}
+.asbobquti {
+    background-color: steelblue;
+    border: 2px solid slateblue;
+    display: flex;
+    width: 805px;
+    padding: 1.2rem;
+}
+.asbobquti > * {
+    background-color: #fff;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    height: 50px;
+    width: 100px;
+}
+.asbobquti > *:last-child {
+    margin-left: auto;
+}
+.asbobquti > *:not(span):hover {
+    background-color: #aaa;
+    cursor: pointer;
+}
